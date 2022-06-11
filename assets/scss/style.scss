@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@300;500&display=swap');
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    font-family: "dancing script";
+}
+
+.colorTexto{
+    color: white;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.boton{
+    @extend .btn;
+    @extend .colorTexto;
+    background-color: $purple;
+}
